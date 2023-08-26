@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.background-image {
+  background-image: url("./assets/image/banner.png");
+  background-repeat: no-repeat;
+  
+  
+  
+}
+.background{
+  @apply h-screen w-full
+}
+
+.menu {
+  @apply text-white flex gap-10 text-lg py-10 ps-[126px]
+}
+
+.hover li  {
+  @apply  hover:text-orange-600 transition-all
+}
+.font-ramabhadra{
+  font-family: 'Ramabhadra', sans-serif;
+}
+.font-inter{
+  font-family: 'Inter', sans-serif;
+}
